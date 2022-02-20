@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <title>바닐라js</title>
+</head>
+<body>
+  <div class="wrap">
+    <div>
+      <p id="daily"></p>
+      <p id="clock">00:00:00</p>
+    </div>
+    <div>
+      <form id="login-form" class="hidden">
+        <input type="text" placeholder="what is your name?" required maxlength="15" />
+        <input type="submit" value="Log in" />
+      </form>
+      <h1 id="greeting" class="hidden"></h1>
+    </div>
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
+    <div class="todo-pic-con">
+      <div class="todo">
+      <span class="todo-title">나의 할일들</span>
+      <form id="todo-form">
+        <input type="text" placeholder="할일을 적어주세요" required />
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+    <div class="pic"><img id="pic" src="image/01.jpg" alt=""></div>
+    </div>
+    <div id="quote">
+      <p class="quote"></p>
+      <p class="author"></p>
+    </div>
+  </div>
+  <script src="src/login.js"></script>     
+  <script src="src/clock.js"></script>     
+  <script src="src/quotes.js"></script>     
+  <script src="src/imgchange.js"></script>    
+  <script src="src/todo.js"></script>     
+  <script src="src/weather.js"></script>     
+  <script src="src/bgcolor.js"></script>     
+    
+</body>
+</html>

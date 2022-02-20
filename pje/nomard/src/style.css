@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+  }
+
+.wrap{
+  width:900px;
+  margin: 50px auto 0;
+  text-align: center;
+}
+
+#clock{
+  font-size: 70px;
+  font-weight: bold;
+  margin:20px 0;
+}
+
+.todo-pic-con{
+  display: flex;
+  height: 410px;
+  margin-top: 20px;
+}
+
+.todo{
+  width: 290px;
+  margin-right: 10px;
+}
+.todo .todo-title{
+  font-weight: bold;
+  font-size:20px;
+}
+
+.pic img{
+  width: 600px;
+  object-fit: cover;
+  border: 2px solid #000;
+  border-radius: 2%;
+}
+
+.quote{
+  text-decoration: underline;
+}
+.author{
+  color:blue;
+  font-weight: bold;
+  margin: 0;
+}
+
+#todo-list{
+  text-align: left;
+}
+.hidden{
+    display: none;
+}
